@@ -31,12 +31,13 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'It\'s nice to talk to you directly.')
 })
 
-controller.hears(['weather'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'rainy mention')
-})
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'rainy message')
+})
+
+controller.hears(['test'], ['direct_message'], function (bot, message) {
+  bot.reply(message, message.text)
 })
 
 controller.hears('.*', ['mention'], function (bot, message) {
