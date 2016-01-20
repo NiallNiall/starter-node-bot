@@ -32,19 +32,18 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
 })
 
 
+function myFunction(a, b) {
+    return a * b;                // Function returns the product of a and b
+}
+
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
-  bot.reply(message, 'rainy message')
+  var testReply = myFunction(12, 2);
+  bot.reply(message, testReply)
 })
 
-controller.hears(['weather in'], ['direct_message'], function (bot, message) {
-  var lat = 51.4854;
-  var lon = -0.1187;
-  $.getJSON('https://api.forecast.io/forecast/ded1ea90e72ed2ded19a13d644470d61/' + lat + ',' + lon + "?callback=?", function(data1) {
-            bot.reply(message, data1.currently.summary)
-            // console.log("It's currently " + data1.currently.summary);
-        });
-
-})
+// controller.hears(['weather in'], ['direct_message'], function (bot, message) {
+//   bot.reply(message, message.text)
+// })
 
 controller.hears('.*', ['mention'], function (bot, message) {
   bot.reply(message, 'You really do care about me. :heart:')
