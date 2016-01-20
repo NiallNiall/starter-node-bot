@@ -37,7 +37,7 @@ function myFunction() {
 }
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
-  var testReply = myFunction;
+  var testReply = myFunction();
   bot.reply(message, testReply)
 })
 
