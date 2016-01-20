@@ -32,12 +32,12 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
 })
 
 
-function myFunction(a, b) {
-    return a * b;                // Function returns the product of a and b
+function myFunction() {
+    return "yo";                // Function returns the product of a and b
 }
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
-  var testReply = 'greeen';
+  var testReply = myFunction;
   bot.reply(message, testReply)
 })
 
