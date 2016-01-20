@@ -26,13 +26,13 @@ controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
   bot.reply(message, 'Hello.')
 })
 
-controller.hears(['weather'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'Its cold outside.')
-})
-
 controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'Hello.')
   bot.reply(message, 'It\'s nice to talk to you directly.')
+})
+
+controller.hears(['weather'], ['direct_message'], function (bot, message) {
+  bot.reply(message, 'rainy')
 })
 
 controller.hears('.*', ['mention'], function (bot, message) {
