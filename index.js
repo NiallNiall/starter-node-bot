@@ -36,8 +36,14 @@ controller.hears(['weather'], ['direct_message'], function (bot, message) {
   bot.reply(message, 'rainy message')
 })
 
-controller.hears(['test'], ['direct_message'], function (bot, message) {
-  bot.reply(message, message.text)
+controller.hears(['weather in'], ['direct_message'], function (bot, message) {
+  var lat = 51.4854;
+  var lon = -0.1187;
+  $.getJSON('https://api.forecast.io/forecast/ded1ea90e72ed2ded19a13d644470d61/' + lat + ',' + lon + "?callback=?", function(data1) {
+            bot.reply(message, data1.currently.summary)
+            // console.log("It's currently " + data1.currently.summary);
+        });
+
 })
 
 controller.hears('.*', ['mention'], function (bot, message) {
