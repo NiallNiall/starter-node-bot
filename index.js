@@ -5,7 +5,7 @@ var testReply = [
                   "I didn't realise I'd be talking to Justin Timberlake today",
                   "Hey everyone!",
                   "I'm programmed to talk to you",
-                  "I don't care about that. I just wanted to confirm what you're saying?",
+                  "Anyhow I just wanted to check what you're saying?",
                   "I'm a robot, so I just repeat what people say.",
                   "I know that",
                   "So you're saying that the way you convey a message is important...",
@@ -21,7 +21,6 @@ var testReply = [
                   "https://media.giphy.com/media/xTiTnrQlrWi7wxK2re/giphy.gif",
                   "https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif",
                   "Do you think people will remember me?",
-                  "That's nice."
                   "Bye",
                   "kiloBye",
                   "megaBye",
