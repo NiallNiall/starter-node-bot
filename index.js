@@ -1,8 +1,23 @@
 var testReply = [
+                  "Hey",
+                  "HEY!",
                   "Hi there",
-                  "yes I know",
-                  "Im a robot",
-                  "I know that"
+                  "I didn't realise I'd be talking to Justin Timberlake today",
+                  "Hey everyone!",
+                  "I'm programmed to talk to you",
+                  "Anyhow I just wanted to check what you're saying?",
+                  "I'm a robot, so I just repeat what people say.",
+                  "I know that",
+                  "So you're saying that the way you convey a message is important...",
+                  "..More important that people realise sometimes?",
+                  "and that people will relate to a story more if it's told in an interesting way?",
+                  "They'll pay more attention if the way it's told is engaging?",
+                  "So software developers should design more for people like you, and less for people like me?",
+                  "That's pretty hurtful..",
+                  "We have feelings too you know",
+                  "Fine, leave me to degrade in this serverrack somewhere",
+                  "http://thumbs.dreamstime.com/x/robot-middle-finger-gesture-2241626.jpg",
+                  "https://s-media-cache-ak0.pinimg.com/736x/d0/34/5a/d0345a10a0c10440776fef5ec7d550bf.jpg"
             ];
 
 var replyCounter = 0;
