@@ -1,8 +1,8 @@
 var testReply = [
-                  "AA",
-                  "BB",
-                  "CC",
-                  "DD"
+                  "Hi there",
+                  "yes I know",
+                  "Im a robot",
+                  "I know that"
             ];
 
 var replyCounter = 0;
@@ -36,19 +36,13 @@ controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
   bot.reply(message, 'Hello.')
 })
 
-controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
-  bot.reply(message, 'Hello.')
-  bot.reply(message, 'It\'s nice to talk to you directly.')
-})
-
 
 function myFunction() {
-
-    return testReply[replyCounter];                // Function returns the product of a and b
     replyCounter += 1;
+    return testReply[replyCounter];                // Function returns the product of a and b
 }
 
-controller.hears(['weather'], ['direct_message'], function (bot, message) {
+controller.hears(['.*'], ['direct_message'], function (bot, message) {
   var testReply = myFunction();
   bot.reply(message, testReply)
 })
