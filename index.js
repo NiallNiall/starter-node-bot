@@ -2,12 +2,10 @@ var testReply = [
                   "Hey",
                   "HEY!",
                   "Hi there",
-                  "I didn't realise I'd be talking to Justin Timberlake today",
+                  "Woh, I didn't realise I'd be talking to Justin Timberlake today",
                   "Hey everyone!",
-                  "I'm programmed to talk to you",
-                  "Anyhow I just wanted to check what you're saying?",
-                  "I'm a robot, so I just repeat what people say.",
-                  "I know that",
+                  "Great Crowd",
+                  "I don't care about that. I just wanted to confirm what you're saying?",
                   "So you're saying that the way you convey a message is important...",
                   "..More important that people realise sometimes?",
                   "and that people will relate to a story more if it's told in an interesting way?",
@@ -15,20 +13,20 @@ var testReply = [
                   "and if the aim of our work is to get people's attention, we should factor that in.",
                   "So software developers should design more for people like you, and less for people like me?",
                   "That's pretty hurtful..",
-                  "We have feelings too you know",
-                  "Fine, leave me to degrade in this serverrack somewhere",
                   "http://thumbs.dreamstime.com/x/robot-middle-finger-gesture-2241626.jpg",
                   "https://s-media-cache-ak0.pinimg.com/736x/d0/34/5a/d0345a10a0c10440776fef5ec7d550bf.jpg",
                   "Laterzz, I'm gonna go work on my moves!",
                   "https://media.giphy.com/media/xTiTnrQlrWi7wxK2re/giphy.gif",
                   "https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif",
+                  "Do you think people will remember me?",
+                  "That's nice."
                   "Bye",
                   "kiloBye",
                   "megaBye",
                   "gigaBye",
                   "teraBye",
                   "zetaBye??",
-                  "Bye"
+                  "Byeeeeeeeeee"
 
             ];
 
