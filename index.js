@@ -2,12 +2,10 @@ var testReply = [
                   "Hey",
                   "HEY!",
                   "Hi there",
-                  "I didn't realise I'd be talking to Justin Timberlake today",
+                  "Woh, I didn't realise I'd be talking to Justin Timberlake today",
                   "Hey everyone!",
-                  "I'm programmed to talk to you",
-                  "Anyhow I just wanted to check what you're saying?",
-                  "I'm a robot, so I just repeat what people say.",
-                  "I know that",
+                  "Great Crowd",
+                  "I don't care about that. I just wanted to confirm what you're saying?",
                   "So you're saying that the way you convey a message is important...",
                   "..More important that people realise sometimes?",
                   "and that people will relate to a story more if it's told in an interesting way?",
@@ -21,13 +19,14 @@ var testReply = [
                   "https://media.giphy.com/media/xTiTnrQlrWi7wxK2re/giphy.gif",
                   "https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif",
                   "Do you think people will remember me?",
+                  "That's nice.",
                   "Bye",
                   "kiloBye",
                   "megaBye",
                   "gigaBye",
                   "teraBye",
                   "zetaBye??",
-                  "Bye"
+                  "Byeeeeeeeeee"
 
             ];
 
