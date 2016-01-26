@@ -1,4 +1,11 @@
-var testReply = "yeah, I agree";
+var testReply = [
+                  "AA",
+                  "BB",
+                  "CC",
+                  "DD"
+            ];
+
+var replyCounter = 0;
 
 
 var Botkit = require('botkit')
@@ -36,7 +43,8 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
 
 
 function myFunction() {
-    return testReply;                // Function returns the product of a and b
+    return testReply[replyCounter];                // Function returns the product of a and b
+    replyCounter += 1;
 }
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
