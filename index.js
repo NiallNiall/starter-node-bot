@@ -43,8 +43,9 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
 
 
 function myFunction() {
-    replyCounter += 1;
+
     return testReply[replyCounter];                // Function returns the product of a and b
+    replyCounter += 1;
 }
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
