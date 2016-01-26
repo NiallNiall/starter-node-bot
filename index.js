@@ -1,3 +1,6 @@
+var testReply = "yeah, I agree";
+
+
 var Botkit = require('botkit')
 
 // Expect a SLACK_TOKEN environment variable
@@ -33,7 +36,7 @@ controller.hears(['hello', 'hi'], ['direct_message'], function (bot, message) {
 
 
 function myFunction() {
-    return "yo";                // Function returns the product of a and b
+    return testReply;                // Function returns the product of a and b
 }
 
 controller.hears(['weather'], ['direct_message'], function (bot, message) {
