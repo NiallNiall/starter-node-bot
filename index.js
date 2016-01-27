@@ -1,4 +1,5 @@
 var testReply = [
+                  ".",
                   "Hey",
                   "HEY!",
                   "Hi there",
@@ -16,7 +17,6 @@ var testReply = [
                   "http://thumbs.dreamstime.com/x/robot-middle-finger-gesture-2241626.jpg",
                   "https://s-media-cache-ak0.pinimg.com/736x/d0/34/5a/d0345a10a0c10440776fef5ec7d550bf.jpg",
                   "Laterzz, I'm gonna go work on my moves!",
-                  "https://media.giphy.com/media/xTiTnrQlrWi7wxK2re/giphy.gif",
                   "https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif",
                   "Do you think people will remember me?",
                   "That's nice.",
