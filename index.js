@@ -113,8 +113,10 @@ controller.hears(['.*'], ['direct_message'], function (bot, message) {
 // })
 
 controller.hears('.*', ['mention'], function (bot, message) {
-  bot.reply(message, 'You really do care about me. :heart:')
+  bot.reply(message, ':heart:' + message.user + ':heart:')
 })
+
+
 
 controller.hears('help', ['direct_message', 'direct_mention'], function (bot, message) {
   var help = 'I will respond to the following messages: \n' +
@@ -145,5 +147,6 @@ controller.hears(['attachment'], ['direct_message', 'direct_mention'], function 
 })
 
 controller.hears('.*', ['direct_message', 'direct_mention'], function (bot, message) {
-  bot.reply(message, 'Sorry <@' + message.user + '>, I don\'t understand. \n')
+  bot.reply(message, 'https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif')
+
 })
