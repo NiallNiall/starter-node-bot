@@ -93,13 +93,14 @@ controller.on('bot_channel_join', function (bot, message) {
 })
 
 controller.hears(['hello', 'hi'], ['direct_mention'], function (bot, message) {
-  bot.reply(message, 'Hello.')
+  bot.reply(message, 'https://media.giphy.com/media/A1rr58XcHIFby/giphy.gif')
 })
 
 
 function myFunction() {
-    replyCounter += 1;
-    return testReply[replyCounter];                // Function returns the product of a and b
+    return "Hi, you're looking pretty fine today!";
+    // replyCounter += 1;
+    // return testReply[replyCounter];                // Function returns the product of a and b
 }
 
 controller.hears(['.*'], ['direct_message'], function (bot, message) {
